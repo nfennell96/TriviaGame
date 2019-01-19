@@ -84,7 +84,7 @@ $('.startButton').on('click', function(){
     $('.startbutton').hide();
     questionCount = 0, correctAnswers = 0, inccorectAnswers = 0, unanswers = 0, countdown = 13;
 
-    StaticRange();
+
 
 });
 
@@ -92,7 +92,7 @@ $('.startButton').on('click', function(){
 $('.list-group-item').on('click', function(){
 
     if (checkIfCorrect($(this).html()) === true) {
-        correcyAnswers++;
+        correctAnswers++;
         console.log(" # of Correct Answers: " + correctAnswers);
         questionCount++;
         askQuestion(questionCount);

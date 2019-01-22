@@ -65,7 +65,7 @@ function askQuestion(questionCount) {
 
     else {
         clearInterval(counter);
-        SpeechRecognitionResultList();
+        
     }
 }
 
